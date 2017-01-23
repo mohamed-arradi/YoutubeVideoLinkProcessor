@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,26 +22,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="irF-11-9of">
-                                <rect key="frame" x="0.0" y="107" width="240" height="128"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uB8-ad-ked">
+                                <rect key="frame" x="169" y="243" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Copy your youtube link" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FSL-Hz-VNW">
+                                <rect key="frame" x="16" y="62" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="5fd-NE-2Gg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9w-bi-VHr">
+                                <rect key="frame" x="16" y="119" width="343" height="47"/>
+                                <color key="backgroundColor" red="0.12548383496440865" green="0.22446434832783554" blue="0.56031168193717273" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="SRM-Pf-Su4"/>
+                                </constraints>
+                                <state key="normal" title="Get Video Link">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getVideoLinkWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6lP-iE-r4k"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Link will appear here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6JW-Mi-ZRd">
+                                <rect key="frame" x="16" y="314" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="THz-iy-3Re">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="THz-iy-3Re" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="2Pw-1r-rg3"/>
-                            <constraint firstItem="THz-iy-3Re" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="AjB-gE-1z4"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="THz-iy-3Re" secondAttribute="bottom" id="GM2-sp-lbo"/>
-                            <constraint firstAttribute="trailing" secondItem="THz-iy-3Re" secondAttribute="trailing" id="gMG-j8-NzN"/>
+                            <constraint firstItem="R9w-bi-VHr" firstAttribute="leading" secondItem="FSL-Hz-VNW" secondAttribute="leading" id="KmL-DF-ZgY"/>
+                            <constraint firstItem="R9w-bi-VHr" firstAttribute="trailing" secondItem="FSL-Hz-VNW" secondAttribute="trailing" id="f1Q-Ra-aNU"/>
+                            <constraint firstItem="uB8-ad-ked" firstAttribute="centerX" secondItem="R9w-bi-VHr" secondAttribute="centerX" id="fC0-iN-Zlq"/>
+                            <constraint firstItem="FSL-Hz-VNW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="42" id="jSH-2d-Wwy"/>
+                            <constraint firstItem="uB8-ad-ked" firstAttribute="top" secondItem="R9w-bi-VHr" secondAttribute="bottom" constant="77" id="rEF-1N-Kw3"/>
+                            <constraint firstItem="R9w-bi-VHr" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uCJ-9M-AL6"/>
+                            <constraint firstItem="FSL-Hz-VNW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="uxD-Zb-Fqw"/>
+                            <constraint firstItem="R9w-bi-VHr" firstAttribute="top" secondItem="FSL-Hz-VNW" secondAttribute="bottom" constant="20" id="wS7-Ff-bdG"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="THz-iy-3Re" id="x3D-T7-5zq"/>
+                        <outlet property="activityLoader" destination="uB8-ad-ked" id="PdK-y3-CZL"/>
+                        <outlet property="button" destination="R9w-bi-VHr" id="0an-ph-cx4"/>
+                        <outlet property="textField" destination="FSL-Hz-VNW" id="OrH-ee-KAh"/>
+                        <outlet property="textView" destination="6JW-Mi-ZRd" id="l6w-Wh-dad"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
