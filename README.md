@@ -14,17 +14,22 @@ I made that project as I really want this feature available for the user, as a s
 
 ## Installation
 
-This library is compatible for iOS 8 +
-
-This library is written in Swift 3.0
+This library is compatible for iOS 8 + and written in Swift 3.0
 
 Via CocoaPods : 
 
 Add the dependency in your podfile as below 
 
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
+target 'TargetName' do
 pod 'YoutubeVideoLinkProcessor'
+end
+
+Then, run the following command:
+
+$ pod install
 
 Via normal import : 
 
