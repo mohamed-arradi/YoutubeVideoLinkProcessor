@@ -1,0 +1,16 @@
+PODS:
+  - YoutubeVideoDownloader (0.1.0)
+
+DEPENDENCIES:
+  - YoutubeVideoDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  YoutubeVideoDownloader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YoutubeVideoDownloader: 3f1606e49c2435cc2318bf13c650d24128c67184
+
+PODFILE CHECKSUM: ceebeeab1d7269f512cce899ecc920e3a699d731
+
+COCOAPODS: 1.1.1

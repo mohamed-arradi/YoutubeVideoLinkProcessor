@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'YoutubeVideoDownloader_Example' do
+  pod 'YoutubeVideoDownloader', :path => '../'
+  inherit! :search_paths
+  target 'YoutubeVideoDownloader_Tests' do
+    inherit! :search_paths
+  end
+end
