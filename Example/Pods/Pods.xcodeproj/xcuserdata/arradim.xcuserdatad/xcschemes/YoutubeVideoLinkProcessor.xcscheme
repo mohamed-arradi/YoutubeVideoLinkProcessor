@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '90B3AF68303713C45A4A7EFA4138CDD5'
-               BlueprintName = 'YoutubeVideoDownloader'
+               BlueprintIdentifier = '08F97AE619B7066BFE5A12C914FAC6D8'
+               BlueprintName = 'YoutubeVideoLinkProcessor'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'YoutubeVideoDownloader.framework'>
+               BuildableName = 'YoutubeVideoLinkProcessor.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

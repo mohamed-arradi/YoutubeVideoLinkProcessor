@@ -1,6 +1,0 @@
-framework module YoutubeVideoDownloader {
-  umbrella header "YoutubeVideoDownloader-umbrella.h"
-
-  export *
-  module * { export * }
-}

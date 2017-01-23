@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/YoutubeVideoDownloader/YoutubeVideoDownloader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YoutubeVideoLinkProcessor/YoutubeVideoLinkProcessor.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/YoutubeVideoDownloader/YoutubeVideoDownloader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YoutubeVideoLinkProcessor/YoutubeVideoLinkProcessor.framework"
 fi

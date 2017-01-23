@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EACDB8FE420768135D36923879F71181FA8A9F06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EACDB8FE420768135D36923879F71181FA8A9F06" : 9223372036854775807,
+    "B18634BAD2CEC3BF3A0118CA17A7D706C3F3EA88" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B28B6CB8-F507-4AE4-9CC4-100F281147C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EACDB8FE420768135D36923879F71181FA8A9F06" : "Example\/",
+    "B18634BAD2CEC3BF3A0118CA17A7D706C3F3EA88" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YoutubeVideoDownloader",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YoutubeVideoDownloader.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mohamed-arradi\/YoutubeVideoLinkProcessor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B18634BAD2CEC3BF3A0118CA17A7D706C3F3EA88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mohamed-arradi\/YoutubeVideoDownloader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EACDB8FE420768135D36923879F71181FA8A9F06"
+    }
+  ]
+}
