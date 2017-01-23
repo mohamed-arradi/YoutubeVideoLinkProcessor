@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* YoutubeVideoDownloader_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeVideoDownloader_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78E1212E151698693287B5DD /* YoutubeVideoDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoutubeVideoDownloader.podspec; path = ../YoutubeVideoDownloader.podspec; sourceTree = "<group>"; };
+		78E1212E151698693287B5DD /* YoutubeVideoLinkProcessor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoutubeVideoLinkProcessor.podspec; path = ../YoutubeVideoLinkProcessor.podspec; sourceTree = "<group>"; };
 		862E6E12F3341FB6A8AEDD57 /* Pods-YoutubeVideoDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeVideoDownloader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeVideoDownloader_Example/Pods-YoutubeVideoDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4442EB12BC898A608E2F243 /* Pods_YoutubeVideoDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubeVideoDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD2086A0A70BDEF09FA63F4 /* Pods-YoutubeVideoDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeVideoDownloader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeVideoDownloader_Tests/Pods-YoutubeVideoDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				78E1212E151698693287B5DD /* YoutubeVideoDownloader.podspec */,
+				78E1212E151698693287B5DD /* YoutubeVideoLinkProcessor.podspec */,
 				473C9112BAD4CE2ECDBA82D5 /* README.md */,
 				EEC10C118D9E8A33441C1B9B /* LICENSE */,
 			);

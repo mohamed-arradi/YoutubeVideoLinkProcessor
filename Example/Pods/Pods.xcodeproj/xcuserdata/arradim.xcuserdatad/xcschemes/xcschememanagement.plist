@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YoutubeVideoDownloader.xcscheme</key>
+		<key>YoutubeVideoLinkProcessor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4C0D1C3B96E78AD4DE1D0008183425A7</key>
+		<key>08F97AE619B7066BFE5A12C914FAC6D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44943C27FF7D9C507EE8F8FC1F3F2DB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>6AC2D58C9AB513492CE07DF8D83FC6D3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90B3AF68303713C45A4A7EFA4138CDD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

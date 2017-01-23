@@ -1,0 +1,6 @@
+framework module YoutubeVideoLinkProcessor {
+  umbrella header "YoutubeVideoLinkProcessor-umbrella.h"
+
+  export *
+  module * { export * }
+}
