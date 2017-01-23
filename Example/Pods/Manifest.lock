@@ -1,16 +1,16 @@
 PODS:
-  - YoutubeVideoDownloader (0.1.0)
+  - YoutubeVideoLinkProcessor (1.0.0)
 
 DEPENDENCIES:
-  - YoutubeVideoDownloader (from `../`)
+  - YoutubeVideoLinkProcessor (from `../`)
 
 EXTERNAL SOURCES:
-  YoutubeVideoDownloader:
+  YoutubeVideoLinkProcessor:
     :path: ../
 
 SPEC CHECKSUMS:
-  YoutubeVideoDownloader: 3f1606e49c2435cc2318bf13c650d24128c67184
+  YoutubeVideoLinkProcessor: cbb4c6230deb243940d2d5adbda8e8ccfcfb4f07
 
-PODFILE CHECKSUM: ceebeeab1d7269f512cce899ecc920e3a699d731
+PODFILE CHECKSUM: 4352e9eecd922b341e92376cde3045cf491a7556
 
 COCOAPODS: 1.1.1
