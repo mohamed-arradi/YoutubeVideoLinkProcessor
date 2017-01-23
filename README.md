@@ -6,7 +6,7 @@ Everyone has at least wanted to download a video from youtube, and everyone know
 
 So as the main technicial issue is to get the downloadable link from a youtube video link.
 
-So this cocoapod library get you the direct link to the mp4 video from https://www.youtube.com/watch?v=video_id! 
+So this cocoapod library get you the direct link to the mp4 a youtube video link.
 
 ## Motivation
 
@@ -37,16 +37,18 @@ $ pod install
 
 Via normal import : 
 
-Just import the swift classes on the classes folder (LinkProcessor.swift,StringExtension.swift,YoutubeRequestVideoProcessor.swift,YoutubeVideoManager.swift)
+Just import the swift classes on the classes folder : 
 
+1. LinkProcessor.swift
+2. StringExtension.swift
+3. YoutubeRequestVideoProcessor.swift
+4. YoutubeVideoManager.swift
 
 ## Code Example
 
 A simple example of an use case : 
 
-      let youtubeManager : YoutubeVideoManager
-        
-         youtubeManager = YoutubeVideoManager(url: "https://www.youtube.com/watch?v=XXXXXXXX")
+         let youtubeManager : YoutubeVideoManager = YoutubeVideoManager(url: "https://www.youtube.com/watch?v=XXXXXXXX")
          
          youtubeManager.fetchVideoLink(completion: { (link : String, error : NSError?) in
 
@@ -59,6 +61,11 @@ A simple example of an use case :
          })
     }
 
+Checkout the Example App in the folder Example.
+
+## ShowCase
+
+[![Simple Demo](http://img.youtube.com/vi/mCCmNMvD4lU/0.jpg)](https://www.youtube.com/watch?v=mCCmNMvD4lU)
 
 ## License
 
