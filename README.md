@@ -20,16 +20,20 @@ Via CocoaPods :
 
 Add the dependency in your podfile as below 
 
+```
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'TargetName' do
 pod 'YoutubeVideoLinkProcessor'
 end
+```
 
 Then, run the following command:
 
+```
 $ pod install
+```
 
 Via normal import : 
 
