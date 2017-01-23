@@ -2,18 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-YoutubeVideoDownloader_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YoutubeVideoDownloader_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YoutubeVideoDownloader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08F97AE619B7066BFE5A12C914FAC6D8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>44943C27FF7D9C507EE8F8FC1F3F2DB0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>4C0D1C3B96E78AD4DE1D0008183425A7</key>
 		<dict>
 			<key>primary</key>
