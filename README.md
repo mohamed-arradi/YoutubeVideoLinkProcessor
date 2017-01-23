@@ -20,7 +20,11 @@ This library is written in Swift 3.0
 
 Via CocoaPods : 
 
-just put  pod 'YoutubeVideoLinkProcessor' in your podfile
+Add the dependency in your podfile as below 
+
+platform :ios, '8.0'
+
+pod 'YoutubeVideoLinkProcessor'
 
 Via normal import : 
 
@@ -46,7 +50,7 @@ A simple example of an use case :
          })
     }
 
-   
+
 ## License
 
 The license used is under MIT.
