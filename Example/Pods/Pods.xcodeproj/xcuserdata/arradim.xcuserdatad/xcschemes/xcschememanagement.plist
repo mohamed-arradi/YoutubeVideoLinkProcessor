@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-YoutubeVideoDownloader_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08F97AE619B7066BFE5A12C914FAC6D8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>44943C27FF7D9C507EE8F8FC1F3F2DB0</key>
+		<key>6600786447128679C573177BB41168AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>6AC2D58C9AB513492CE07DF8D83FC6D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2EEE8655996C2D673AEEA832577A6B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

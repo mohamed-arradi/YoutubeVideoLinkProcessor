@@ -1,7 +1,9 @@
 PODS:
+  - Alamofire (4.3.0)
   - YoutubeVideoLinkProcessor (1.0.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.3)
   - YoutubeVideoLinkProcessor (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   YoutubeVideoLinkProcessor: 0389acf19d93e95339e6e4f39ad728cbe75356a2
 
-PODFILE CHECKSUM: 4352e9eecd922b341e92376cde3045cf491a7556
+PODFILE CHECKSUM: 18c62e01ca16aad3e0251582d8edc649ccfcd5e0
 
 COCOAPODS: 1.1.1

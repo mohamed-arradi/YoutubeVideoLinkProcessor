@@ -7,19 +7,29 @@
 //
 
 import UIKit
-import YoutubeVideoDownloader
+import YoutubeVideoLinkProcessor
 
 class ViewController : UIViewController {
+    
+    let downloadSegue : String = "downloadSegue"
+    let playbackSegue : String = "playbackSegue"
+    
+    var downloadUrl : String = ""
     
     @IBOutlet weak var textView : UITextView!
     @IBOutlet weak var textField : UITextField!
     @IBOutlet weak var button : UIButton!
+    @IBOutlet weak var downloadVideoButton : UIButton!
+    @IBOutlet weak var watchItButton : UIButton!
+    
     @IBOutlet weak var activityLoader : UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         activityLoader.isHidden = true
         textField.text = "https://www.youtube.com/watch?v=X7FVYJ6ONXk"
+        downloadVideoButton.isHidden = true
+        self.watchItButton.isHidden = true
     }
 
     @IBAction func getVideoLink(sender : UIButton)
@@ -44,8 +54,29 @@ class ViewController : UIViewController {
                self.textView.text = link
                self.activityLoader.isHidden = true
                self.activityLoader.stopAnimating()
+               self.downloadUrl = link
+               self.downloadVideoButton.isHidden = false
+               self.watchItButton.isHidden = false
             }
             
         })
+    }
+    
+    @IBAction func downloadVideo(sender : UIButton)
+    {
+        self.performSegue(withIdentifier: self.downloadSegue, sender: self)
+    }
+    
+    @IBAction func watchVideo(sender : UIButton)
+    {
+        UIApplication.shared.openURL(URL(string: self.downloadUrl)!)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == downloadSegue {
+            let viewController:DownloaderViewController = segue.destination as! DownloaderViewController
+            viewController.downloadUrl = self.downloadUrl
+        }
     }
 }

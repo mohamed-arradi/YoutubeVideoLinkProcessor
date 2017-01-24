@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import YoutubeVideoDownloader
+import YoutubeVideoLinkProcessor
 
 class Tests: XCTestCase {
     

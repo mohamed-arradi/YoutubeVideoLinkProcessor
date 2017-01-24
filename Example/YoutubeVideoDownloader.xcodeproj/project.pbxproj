@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45671B131E3544F000032649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45671B121E3544F000032649 /* ViewController.swift */; };
+		456FE09C1E365D83005C847D /* DownloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FE09B1E365D83005C847D /* DownloaderViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		45671B121E3544F000032649 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		456FE09B1E365D83005C847D /* DownloaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloaderViewController.swift; sourceTree = "<group>"; };
 		473C9112BAD4CE2ECDBA82D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5021DBBBBD640D0787E5C2A0 /* Pods-YoutubeVideoDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeVideoDownloader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeVideoDownloader_Tests/Pods-YoutubeVideoDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51123CBD723B954293F9CCA5 /* Pods-YoutubeVideoDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeVideoDownloader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeVideoDownloader_Example/Pods-YoutubeVideoDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for YoutubeVideoDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				456FE09B1E365D83005C847D /* DownloaderViewController.swift */,
 				45671B121E3544F000032649 /* ViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45671B131E3544F000032649 /* ViewController.swift in Sources */,
+				456FE09C1E365D83005C847D /* DownloaderViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
