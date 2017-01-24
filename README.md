@@ -65,7 +65,7 @@ Checkout the Example App in the folder Example.
 
 ## ShowCase
 
-[![Simple Demo](http://img.youtube.com/vi/mCCmNMvD4lU/0.jpg)](https://www.youtube.com/watch?v=mCCmNMvD4lU)
+[![Simple Demo](http://img.youtube.com/vi/-uL5eqPA6GA/0.jpg)](https://www.youtube.com/watch?v=-uL5eqPA6GA)
 
 ## License
 
