@@ -37,8 +37,8 @@ class ViewController : UIViewController {
         self.view.endEditing(true)
         
         guard self.textField.text!.isEmpty == false else {
-            let alert = UIAlertController(title: "Alert", message: "Link Empty", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            let alert = UIAlertController(title: "Alert", message: "Link Empty", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
             return
         }

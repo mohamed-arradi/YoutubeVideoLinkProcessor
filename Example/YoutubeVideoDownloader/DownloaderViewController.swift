@@ -41,29 +41,26 @@ class DownloaderViewController : UIViewController {
         }
         
         Alamofire.download(self.downloadUrl, to: destination).responseData { response in
-            if response.destinationURL != nil {
+            if let destinationUrl = response.destinationURL {
                 
-                let alertController = UIAlertController(title: "Your video was successfully saved", message: nil, preferredStyle: .alert)
-                let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                alertController.addAction(defaultAction)
-                self.present(alertController, animated: true, completion: nil)
-                
-                
-                /*  You can store the video then 
                 PHPhotoLibrary.requestAuthorization({ (authorizationStatus: PHAuthorizationStatus) -> Void in
                         // check if user authorized access photos for your app
                         if authorizationStatus == .authorized {
                             PHPhotoLibrary.shared().performChanges({
                                 PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: destinationUrl)}) { completed, error in
                                     if completed {
-                                        
+                                        let alertController = UIAlertController(title: "Your video was successfully saved", message: nil, preferredStyle: .alert)
+                                        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                                        alertController.addAction(defaultAction)
+                                        self.present(alertController, animated: true, completion: nil)
+                                        print("completed")
                                     } else {
-                                        print(error ?? "")
+                                        print(error?.localizedDescription ?? "")
                                     }
                             }
                         }
                     })
-                    */
+                
                 }
             }
         .downloadProgress { progress in
